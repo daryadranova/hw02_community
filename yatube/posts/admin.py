@@ -9,7 +9,7 @@ class PostAdmin(admin.ModelAdmin):
     list_editable = ('group',)
     search_fields = ('text',)
     list_filter = ('pub_date',)
-    # Это свойство сработает для всех колонок: где пусто — там будет эта строка 
+    # Это свойство сработает для всех колонок: где пусто — там будет эта строка
     empty_value_display = '-пусто-'
 
 
